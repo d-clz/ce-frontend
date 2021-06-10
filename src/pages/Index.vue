@@ -8,7 +8,7 @@
       </parallax>
       <div class="content-center">
         <div class="container text-left">
-          <h1 class="title">ViVEXELT</h1>
+          <h1 class="title">CATALYST</h1>
           <h2 class="sub-title">
             {{ $t("index.home_description.line1") }}
             <br>
