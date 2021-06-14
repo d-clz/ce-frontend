@@ -69,17 +69,6 @@
                 </div>
               </div>
             </div>
-            <div
-              class="about-section s-pb48"
-              id="when-will-the-courses-take-place"
-            >
-              <div class="about-header s-pb24">
-                {{ $t("au.vive-take-place") }}
-              </div>
-              <div class="about-body">
-                {{ $t("au.vive-take-place-des") }}
-              </div>
-            </div>
           </div>
           <div
             class="col-md-3 ml-auto mr-auto text-left fixed-scroll"
@@ -115,15 +104,6 @@
                 <li>
                   <a href="#meet-vivexelt-team" class="scrollactive-item">
                     {{ $t("au.meet-vive") }}
-                    <i class="fas fa-caret-left"></i>
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#when-will-the-courses-take-place"
-                    class="scrollactive-item"
-                  >
-                    {{ $t("au.vive-take-place") }}
                     <i class="fas fa-caret-left"></i>
                   </a>
                 </li>

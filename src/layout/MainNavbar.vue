@@ -29,9 +29,6 @@
       <a class="navbar-brand s-pr12 s-pl12" to="" @click="goTo('tutorials')">
         {{ $t("nav.activities") }}
       </a>
-      <a class="navbar-brand s-pr12 s-pl12" to="" @click="goTo('research')">
-        {{ $t("nav.research_published") }}
-      </a>
       <a class="navbar-brand s-pr12 s-pl12" to="" @click="goTo('contact')">
         {{ $t("nav.contact") }}
       </a>

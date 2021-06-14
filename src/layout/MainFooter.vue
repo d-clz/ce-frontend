@@ -21,11 +21,6 @@
             </router-link>
           </li>
           <li>
-            <router-link class="navbar-brand" to="/research-published">
-              {{ $t("nav.research_published") }}
-            </router-link>
-          </li>
-          <li>
             <router-link class="navbar-brand" to="/contact">
               {{ $t("nav.contact") }}
             </router-link>

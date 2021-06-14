@@ -82,7 +82,7 @@
                 class="twitter-timeline"
                 style="width: 100%"
                 data-height="550"
-                href="https://twitter.com/vivexelt"
+                href="https://twitter.com/CircularEutroph"
                 >Tweets by ViVEXELT</a
               >
             </div>
