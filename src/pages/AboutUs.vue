@@ -16,6 +16,12 @@
       <div class="container">
         <div class="row">
           <div class="col-md-7 ml-auto mr-auto text-left">
+            <div class="about-section s-pb48" id="what-is-vivexelt">
+              <div class="about-header s-pb24">{{ $t("au.wivive") }}</div>
+              <div class="about-body">
+                {{ $t("au.wivive-des-2") }}
+              </div>
+            </div>
             <div class="about-section s-pb48" id="what-is-vivexelt-aims-to">
               <div class="about-header s-pb24">{{ $t("au.vive-aims") }}</div>
               <div class="about-body">
@@ -33,9 +39,8 @@
               </div>
             </div>
             <div class="about-section s-pb48" id="what-is-vivexelt">
-              <div class="about-header s-pb24">{{ $t("au.wivive") }}</div>
               <div class="about-body">
-                {{ $t("au.wivive-des") }}
+                {{ $t("au.wivive-des-1") }}
               </div>
             </div>
             <div class="about-section s-pb48" id="who-is-vivexelt-for">
