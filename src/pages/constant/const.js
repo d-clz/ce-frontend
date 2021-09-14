@@ -79,6 +79,33 @@ export const Profile = {
 		company: "tuan_phi_com",
 		role: "tuan_phi_role",
 		description: "tuan_phi_d",
+	},	
+	thu_ha_nguyen: {
+		full_name: 'thuha_fname',
+		name: "thuha_name",
+		image: "/img/nguyen_thi_thu_ha.PNG",
+		company: "thuha_com",
+		short_description: "thuha_sd",
+		role: "thuha_role",
+		description: `thuha_d`,
+	},
+	khac_uan_do: {
+		full_name: 'khac_uan_fname',
+		name: "khac_uan_name",
+		image: "/img/khac_uan_do.PNG",
+		company: "khac_uan_com",
+		short_description: "khac_uan_sd",
+		role: "khac_uan_role",
+		description: `khac_uan_d`,
+	},
+	lan_phuong_nguyen: {
+		full_name: 'lanphuong_fname',
+		name: "lanphuong_name",
+		image: "/img/nguyen_thi_lan_phuong.PNG",
+		company: "lanphuong_com",
+		short_description: "lanphuong_sd",
+		role: "lanphuong_role",
+		description: `lanphuong_d`,
 	},
 	trinh_viet_dung: {
 		full_name: 'trinh_dung_fname',
@@ -89,6 +116,7 @@ export const Profile = {
 		role: "trinh_dung_role",
 		description: `trinh_dung_d`,
 	},
+
 };
 
 export const buildQueryString = (params) => {
