@@ -56,7 +56,7 @@ export default new Router({
     },
     {
       path: '/contact',
-      name: 'contact',
+      name: 'blog',
       components: { default: Contact, header: MainNavbar, footer: MainFooter },
       props: {
         header: { colorOnScroll: 0 },
