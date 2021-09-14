@@ -29,8 +29,7 @@
       <a class="navbar-brand s-pr12 s-pl12" to="" @click="goTo('tutorials')">
         {{ $t("nav.activities") }}
       </a>
-      <a class="navbar-brand s-pr12 s-pl12" to="https://genji0306.wixsite.com/ceblog/blog" @click="goTo('contact')">
-      </a>
+      <a class="navbar-brand s-pr12 s-pl12" href="https://genji0306.wixsite.com/ceblog/blog">Blog</a>
       <drop-down tag="li" icon="now-ui-icons design_app" class="nav-item">
         <template v-slot:title>
           <a class="dropdown-toggle nav-link" data-toggle="dropdown">
