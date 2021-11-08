@@ -90,6 +90,9 @@
               >Load more
             </n-button> -->
           </div>
+          <div>
+            <img src="img/logo.png">
+          </div>
         </div>
       </div>
     </div>
