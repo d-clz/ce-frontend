@@ -20,14 +20,11 @@
           </fg-input>
         </form>
       </li>
-      <a class="navbar-brand s-pr12 s-pl12" to="" @click="goTo('index')">
-        {{ $t("nav.home") }}
-      </a>
       <a class="navbar-brand s-pr12 s-pl12" to="" @click="goTo('aboutus')">
         {{ $t("nav.about_us") }}
       </a>
-      <a class="navbar-brand s-pr12 s-pl12" to="" @click="goTo('tutorials')">
-        {{ $t("nav.activities") }}
+      <a class="navbar-brand s-pr12 s-pl12" to="" @click="goTo('index')">
+        Activities
       </a>
       <a class="navbar-brand s-pr12 s-pl12" href="https://genji0306.wixsite.com/ceblog/blog">Blog</a>
       <drop-down tag="li" icon="now-ui-icons design_app" class="nav-item">
