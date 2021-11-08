@@ -20,7 +20,7 @@
           </fg-input>
         </form>
       </li>
-      <a class="navbar-brand s-pr12 s-pl12" to="" @click="goTo('aboutus')">
+      <a class="navbar-brand s-pr12 s-pl12" to="" @click="goTo('home')">
         Home
       </a>
       <a class="navbar-brand s-pr12 s-pl12" to="" @click="goTo('activities')">
