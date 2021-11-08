@@ -6,25 +6,6 @@
         style="background-image: url('img/about-us-cover.jpg')"
       >
       </parallax>
-      <div class="content-center">
-        <div class="container text-left">
-          <h1 class="title">CATALYST</h1>
-          <h2 class="sub-title">
-            {{ $t("index.home_description.line1") }}
-            <br>
-            {{ $t("index.home_description.line2") }}
-          </h2>
-          <n-button
-            class="text-bold"
-            type="primary"
-            round
-            style="font-size: 1rem"
-            @click="goTo('learnmore')"
-          >
-            {{ $t("index.join_button") }}
-          </n-button>
-        </div>
-      </div>
     </div>
     <div class="section section-about-us">
       <div class="container">

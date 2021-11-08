@@ -27,6 +27,7 @@
         Activities
       </a>
       <a class="navbar-brand s-pr12 s-pl12" href="https://genji0306.wixsite.com/ceblog/blog">Blog</a>
+      <a class="navbar-brand s-pr12 s-pl12" href="">Opensens</a>
       <drop-down tag="li" icon="now-ui-icons design_app" class="nav-item">
         <template v-slot:title>
           <a class="dropdown-toggle nav-link" data-toggle="dropdown">
