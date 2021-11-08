@@ -21,7 +21,7 @@
         </form>
       </li>
       <a class="navbar-brand s-pr12 s-pl12" to="" @click="goTo('aboutus')">
-        {{ $t("nav.about_us") }}
+        Home
       </a>
       <a class="navbar-brand s-pr12 s-pl12" to="" @click="goTo('index')">
         Activities

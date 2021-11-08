@@ -19,8 +19,8 @@ export default new Router({
   mode: 'history',
   routes: [
     {
-      path: '/',
-      name: 'index',
+      path: '/activities',
+      name: 'activities',
       components: { default: Index, header: MainNavbar, footer: MainFooter },
       props: {
         header: { colorOnScroll: 0 },
@@ -28,18 +28,9 @@ export default new Router({
       }
     },
     {
-      path: '/about',
-      name: 'aboutus',
+      path: '/',
+      name: 'home',
       components: { default: AboutUs, header: MainNavbar, footer: MainFooter },
-      props: {
-        header: { colorOnScroll: 0 },
-        footer: { backgroundColor: 'black' }
-      }
-    },
-    {
-      path: '/activities',
-      name: 'tutorials',
-      components: { default: Tutorial, header: MainNavbar, footer: MainFooter },
       props: {
         header: { colorOnScroll: 0 },
         footer: { backgroundColor: 'black' }
