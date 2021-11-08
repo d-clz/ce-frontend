@@ -3,7 +3,7 @@
     <div class="page-header page-header-small">
       <parallax
         class="page-header-image"
-        style="background-image: url('img/about-us-cover.jpg')"
+        style="background-image: url('img/bg6.jpg')"
       >
       </parallax>
       <div class="content-center">

@@ -21,9 +21,9 @@
         </form>
       </li>
       <a class="navbar-brand s-pr12 s-pl12" to="" @click="goTo('aboutus')">
-        {{ $t("nav.about_us") }}
+        Home
       </a>
-      <a class="navbar-brand s-pr12 s-pl12" to="" @click="goTo('index')">
+      <a class="navbar-brand s-pr12 s-pl12" to="" @click="goTo('activities')">
         Activities
       </a>
       <a class="navbar-brand s-pr12 s-pl12" href="https://genji0306.wixsite.com/ceblog/blog">Blog</a>
