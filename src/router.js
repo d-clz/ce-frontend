@@ -55,12 +55,11 @@ export default new Router({
       }
     },
     {
-      path: '/research-published',
-      name: 'research',
+      path: '/blog',
+      name: 'learnmore',
       components: { default: Research, header: MainNavbar, footer: MainFooter },
-      props: {
-        header: { colorOnScroll: 0 },
-        footer: { backgroundColor: 'black' }
+      beforeEnter: () => {
+        window.location.href = 'https://www.circulareutrophication.org/';
       }
     },
     {

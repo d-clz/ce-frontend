@@ -19,7 +19,7 @@
             type="primary"
             round
             style="font-size: 1rem"
-            @click="goToTut()"
+            @click="goTo('learnmore')"
           >
             {{ $t("index.join_button") }}
           </n-button>
